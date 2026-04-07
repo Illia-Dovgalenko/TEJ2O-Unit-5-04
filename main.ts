@@ -1,7 +1,7 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
  * Created by: Illia
- * Created on: March 2026
+ * Created on: Apr 2026
  * This program light green, yellow and red RGB
 */
 
@@ -17,7 +17,7 @@ neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
-
+// show green, yellow and red
 neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
 basic.pause(2000)
 neopixelStrip.show()
