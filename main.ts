@@ -18,6 +18,9 @@ neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
+// turning on neopixels
+input.onButtonPressed(Button.A, function () {
+
 // show green, yellow and red
 neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
 basic.pause(2000)
@@ -34,3 +37,4 @@ neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
 basic.pause(2000)
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
+})
