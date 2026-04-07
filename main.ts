@@ -17,6 +17,7 @@ neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
+
 // show green, yellow and red
 neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
 basic.pause(2000)
